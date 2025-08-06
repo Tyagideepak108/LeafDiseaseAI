@@ -221,3 +221,6 @@ logs_sugarcane/
 
 # Mac system files (optional)
 .DS_Store
+# Dataset folders
+sugercane/
+PlantVillage/
