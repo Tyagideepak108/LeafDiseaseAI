@@ -1,0 +1,107 @@
+{
+  "Pepper__bell___Bacterial_spot": {
+    "hindi_name": "शिमला मिर्च बैक्टीरियल स्पॉट",
+    "cause": "Bacterial Spot in Pepper bell is caused by Xanthomonas campestris. It begins as small, water-soaked spots on leaves that later turn brown.",
+    "cause_hindi": "शिमला मिर्च में बैक्टीरियल स्पॉट रोग Xanthomonas campestris के कारण होता है। यह पत्तियों पर छोटे, गीले धब्बों के रूप में शुरू होता है जो बाद में भूरे रंग के हो जाते हैं।",
+    "treatment": "Use clean seeds, spray copper-based fungicide, and remove infected plants.",
+    "treatment_hindi": "साफ-सुथरे बीज का उपयोग करें, कॉपर आधारित फफूंदनाशक का छिड़काव करें और संक्रमित पौधों को हटा दें।"
+  },
+  "Pepper__bell___healthy": {
+    "hindi_name": "शिमला मिर्च स्वस्थ",
+    "cause": "The plant is healthy with no signs of disease.",
+    "cause_hindi": "पौधा स्वस्थ है, किसी भी रोग का कोई लक्षण नहीं है।",
+    "treatment": "Maintain regular care and proper nutrition.",
+    "treatment_hindi": "नियमित देखभाल करें और उचित पोषण दें।"
+  },
+  "Potato___Early_blight": {
+    "hindi_name": "आलू अगेती झुलसा",
+    "cause": "Early blight in potatoes is caused by Alternaria solani fungus that creates dark brown spots with ring patterns on leaves.",
+    "cause_hindi": "यह Alternaria solani फफूंद के कारण होता है जो पत्तियों पर गहरे भूरे धब्बे और गोल छल्लों जैसा पैटर्न बनाता है।",
+    "treatment": "Keep the area clean, grow resistant varieties, and use fungicides like Mancozeb.",
+    "treatment_hindi": "सफाई रखें, रोग प्रतिरोधी किस्में लगाएँ और फफूंदनाशकों (जैसे Mancozeb) का उपयोग करें।"
+  },
+  "Potato___Late_blight": {
+    "hindi_name": "आलू पछेती झुलसा",
+    "cause": "Caused by Phytophthora infestans fungus, which can destroy entire fields quickly.",
+    "cause_hindi": "Phytophthora infestans नामक फफूंद के कारण होता है जो पूरे खेत को नष्ट कर सकता है।",
+    "treatment": "Improve drainage, avoid excessive moisture, and use fungicides like Metalaxyl.",
+    "treatment_hindi": "जल निकासी सुधारे, खेतों में नमी न बढ़ने दें, और फफूंदनाशकों का उपयोग करें जैसे Metalaxyl।"
+  },
+  "Potato___healthy": {
+    "hindi_name": "आलू स्वस्थ",
+    "cause": "The plant is healthy with no signs of disease.",
+    "cause_hindi": "पौधा स्वस्थ है, किसी भी रोग का कोई लक्षण नहीं है।",
+    "treatment": "Maintain regular care and proper nutrition.",
+    "treatment_hindi": "नियमित देखभाल करें और उचित पोषण दें।"
+  },
+  "Tomato___Bacterial_spot": {
+    "hindi_name": "टमाटर बैक्टीरियल स्पॉट",
+    "cause": "Caused by Xanthomonas campestris bacteria, forming black spots on leaves and fruits.",
+    "cause_hindi": "Xanthomonas campestris बैक्टीरिया के कारण होता है। यह पत्तियों और फलों पर काले धब्बे बनाता है।",
+    "treatment": "Treat seeds with hot water, spray copper-based products, and maintain hygiene in fields.",
+    "treatment_hindi": "बीज को गर्म पानी से ट्रीट करें, कॉपर आधारित स्प्रे करें और खेत में साफ़-सफाई रखें।"
+  },
+  "Tomato___Early_blight": {
+    "hindi_name": "टमाटर अगेती झुलसा",
+    "cause": "Caused by Alternaria solani fungus that leads to yellowing and falling of leaves.",
+    "cause_hindi": "Alternaria solani फफूंद के कारण होता है, जो पत्तियों के पीले पड़ने और गिरने का कारण बनता है।",
+    "treatment": "Use fungicides like Chlorothalonil and practice crop rotation.",
+    "treatment_hindi": "Fungicide जैसे Chlorothalonil और फसल चक्र अपनाएँ।"
+  },
+  "Tomato___Late_blight": {
+    "hindi_name": "टमाटर पछेती झुलसा",
+    "cause": "Caused by Phytophthora infestans, spreads rapidly and can destroy crops.",
+    "cause_hindi": "Phytophthora infestans फफूंद द्वारा होता है, जो जल्दी फैलता है और पूरी फसल नष्ट कर सकता है।",
+    "treatment": "Use fungicides like Metalaxyl or phosphonate-based sprays.",
+    "treatment_hindi": "फफूंदनाशक जैसे Metalaxyl या Phosphonate आधारित स्प्रे का उपयोग करें।"
+  },
+  "Tomato___Leaf_Mold": {
+    "hindi_name": "टमाटर लीफ मोल्ड",
+    "cause": "Caused by Cladosporium fulvum fungus leading to yellowing and mold-like growth on leaves.",
+    "cause_hindi": "Cladosporium fulvum नामक फफूंद के कारण पत्तियों पर पीला और बाद में मोल्ड जैसा विकास होता है।",
+    "treatment": "Improve ventilation in greenhouse and use fungicides.",
+    "treatment_hindi": "ग्रीनहाउस में वेंटिलेशन सुधारें और फफूंदनाशकों का प्रयोग करें।"
+  },
+  "Tomato___Septoria_leaf_spot": {
+    "hindi_name": "टमाटर सेप्टोरिया लीफ स्पॉट",
+    "cause": "Caused by Septoria lycopersici fungus, creating brown spots and spreading in humid conditions.",
+    "cause_hindi": "Septoria lycopersici फफूंद पत्तियों पर भूरे धब्बे बनाता है। यह नमी में तेजी से फैलता है।",
+    "treatment": "Remove infected leaves, spray, and practice crop rotation.",
+    "treatment_hindi": "संक्रमित पत्तियाँ हटा दें, स्प्रे करें और फसल चक्र अपनाएं।"
+  },
+  "Tomato___Spider_mites Two-spotted_spider_mite": {
+    "hindi_name": "टमाटर स्पाइडर माइट",
+    "cause": "Spider mites live on the underside of leaves and suck sap, causing yellowing.",
+    "cause_hindi": "Spider mites पत्तियों की निचली सतह पर रहते हैं और रस चूसते हैं जिससे पत्तियाँ पीली हो जाती हैं।",
+    "treatment": "Spray neem oil and use biological controls like ladybugs.",
+    "treatment_hindi": "Neem oil का छिड़काव करें और जैविक नियंत्रण जैसे ladybugs का प्रयोग करें।"
+  },
+  "Tomato___Target_Spot": {
+    "hindi_name": "टमाटर टारगेट स्पॉट",
+    "cause": "Caused by Corynespora cassiicola fungus forming round spots on leaves and fruits.",
+    "cause_hindi": "Corynespora cassiicola नामक फफूंद के कारण होता है जो पत्तियों और फलों पर गोल धब्बे बनाता है।",
+    "treatment": "Spray fungicides like Difenoconazole.",
+    "treatment_hindi": "फफूंदनाशक जैसे Difenoconazole का छिड़काव करें।"
+  },
+  "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+    "hindi_name": "टमाटर येलो लीफ कर्ल वायरस",
+    "cause": "Caused by virus spread by whiteflies, leading to leaf curling and yellowing.",
+    "cause_hindi": "यह रोग वायरस के कारण होता है जो सफेद मक्खियों द्वारा फैलता है। पत्तियाँ मुड़ जाती हैं और पीली हो जाती हैं।",
+    "treatment": "Control whiteflies, plant resistant varieties, and remove infected plants.",
+    "treatment_hindi": "सफेद मक्खियों को नियंत्रित करें, रोग प्रतिरोधी किस्में लगाएं और रोगग्रस्त पौधों को हटा दें।"
+  },
+  "Tomato___Tomato_mosaic_virus": {
+    "hindi_name": "टमाटर मोज़ेक वायरस",
+    "cause": "Virus that stunts plant growth and creates mosaic patterns on leaves.",
+    "cause_hindi": "यह वायरस पौधे की वृद्धि को रोकता है और पत्तियों पर मोज़ेक पैटर्न बनाता है।",
+    "treatment": "Use sanitized tools and remove infected plants.",
+    "treatment_hindi": "साफ़-सुथरे उपकरणों का उपयोग करें और संक्रमित पौधे हटा दें।"
+  },
+  "Tomato___healthy": {
+    "hindi_name": "टमाटर स्वस्थ",
+    "cause": "The plant is healthy with no signs of disease.",
+    "cause_hindi": "पौधा स्वस्थ है, किसी भी रोग का कोई लक्षण नहीं है।",
+    "treatment": "Maintain regular care, apply balanced fertilizer, and rotate crops.",
+    "treatment_hindi": "नियमित देखभाल करें, संतुलित उर्वरक दें और फसल चक्र अपनाएँ।"
+  }
+}

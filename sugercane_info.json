@@ -1,0 +1,79 @@
+{
+  "Banded Chlorosis": {
+    "hindi_name": "बैंडेड क्लोरोसिस",
+    "cause": "Iron or zinc deficiency leading to yellow stripes",
+    "cause_hindi": "लौह या जिंक की कमी के कारण पीली धारियां",
+    "treatment": "Soil application of micronutrients",
+    "treatment_hindi": "सूक्ष्म पोषक तत्वों का मिट्टी में अनुप्रयोग"
+  },
+  "Brown Spot": {
+    "hindi_name": "भूरा धब्बा",
+    "cause": "Caused by fungal infection",
+    "cause_hindi": "फफूंदी के संक्रमण से होता है",
+    "treatment": "Use fungicides and remove affected leaves",
+    "treatment_hindi": "फफूंदनाशक का प्रयोग करें और प्रभावित पत्तियों को हटाएं"
+  },
+  "BrownRust": {
+    "hindi_name": "भूरी रत",
+    "cause": "Caused by Puccinia melanocephala",
+    "cause_hindi": "Puccinia melanocephala फफूंदी से होता है",
+    "treatment": "Spray with appropriate fungicides",
+    "treatment_hindi": "उचित फफूंदनाशक का छिड़काव करें"
+  },
+  "Dried Leaves": {
+    "hindi_name": "सूखी पत्तियां",
+    "cause": "Lack of water or disease stress",
+    "cause_hindi": "पानी की कमी या रोग का तनाव",
+    "treatment": "Improve irrigation and nutrient supply",
+    "treatment_hindi": "सिंचाई और पोषण आपूर्ति को बेहतर करें"
+  },
+  "Grassy shoot": {
+    "hindi_name": "घास जैसा अंकुर",
+    "cause": "Caused by phytoplasma infection",
+    "cause_hindi": "फाइटोप्लाज्मा संक्रमण से होता है",
+    "treatment": "Use hot water treatment on seed setts",
+    "treatment_hindi": "बीज सेट्स पर गर्म पानी उपचार करें"
+  },
+  "Healthy Leaves": {
+    "hindi_name": "स्वस्थ पत्तियां",
+    "cause": "No disease detected",
+    "cause_hindi": "कोई रोग नहीं पाया गया",
+    "treatment": "No treatment needed",
+    "treatment_hindi": "कोई उपचार आवश्यक नहीं"
+  },
+  "Pokkah Boeng": {
+    "hindi_name": "पोक्का बोएंग",
+    "cause": "Caused by Fusarium species",
+    "cause_hindi": "Fusarium प्रजातियों से होता है",
+    "treatment": "Use resistant varieties and fungicide",
+    "treatment_hindi": "प्रतिरोधी किस्में और फफूंदनाशक का प्रयोग करें"
+  },
+  "Sett Rot": {
+    "hindi_name": "सेट रॉट",
+    "cause": "Caused by Ceratocystis paradoxa",
+    "cause_hindi": "Ceratocystis paradoxa फफूंदी से होता है",
+    "treatment": "Use healthy setts and treat before planting",
+    "treatment_hindi": "स्वस्थ सेट्स का प्रयोग करें और रोपण से पहले उपचार करें"
+  },
+  "smut": {
+    "hindi_name": "स्मट रोग",
+    "cause": "Caused by fungus Sporisorium scitamineum",
+    "cause_hindi": "Sporisorium scitamineum फफूंदी से होता है",
+    "treatment": "Hot water treatment and resistant varieties",
+    "treatment_hindi": "गर्म पानी उपचार और प्रतिरोधी किस्मों का प्रयोग करें"
+  },
+  "Viral Disease": {
+    "hindi_name": "वायरल रोग",
+    "cause": "Various virus infections",
+    "cause_hindi": "विभिन्न वायरस संक्रमण",
+    "treatment": "Remove infected plants, control insect vectors",
+    "treatment_hindi": "संक्रमित पौधों को हटाएं, कीट वाहकों पर नियंत्रण करें"
+  },
+  "Yellow Leaf": {
+    "hindi_name": "पीली पत्ती",
+    "cause": "Deficiency or yellow leaf virus",
+    "cause_hindi": "कमी या पीली पत्ती वायरस",
+    "treatment": "Proper fertilization and vector control",
+    "treatment_hindi": "उचित उर्वरक और कीट नियंत्रण"
+  }
+}
