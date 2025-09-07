@@ -6,3 +6,4 @@ timestamp,prediction,confidence,is_correct,comment,image_path
 2025-09-01 12:49:49,Potato___Late_blight,98.29%,Yes,N/A,feedback_images/Potato___Late_blight_20250901_124949.png
 2025-09-01 12:50:12,Potato___Late_blight,98.29%,No,improve,feedback_images/Potato___Late_blight_20250901_125012.png
 2025-09-06 09:50:36,Potato___Late_blight,99.74%,Yes,N/A,feedback_images/Potato___Late_blight_20250906_095036.png
+2025-09-07 19:41:43,Potato___Late_blight,99.48%,Yes,N/A,feedback_images/Potato___Late_blight_20250907_194143.png
