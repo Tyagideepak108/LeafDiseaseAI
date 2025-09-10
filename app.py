@@ -171,7 +171,8 @@ if page == L["home"]:
     @st.cache_resource
     def load_model(model_path):
         try:
-            return tf.keras.models.load_model(model_path)
+            # Fix for DepthwiseConv2D compatibility
+            return tf.keras.models.load_model(model_path, compile=False)
         except Exception as e:
             st.error(f"❌ Error loading model: {e}")
             return None
