@@ -9,6 +9,13 @@ import os
 import pandas as pd
 import datetime
 
+# Custom DepthwiseConv2D to handle compatibility
+class CompatibleDepthwiseConv2D(tf.keras.layers.DepthwiseConv2D):
+    def __init__(self, *args, **kwargs):
+        # Remove 'groups' parameter if present
+        kwargs.pop('groups', None)
+        super().__init__(*args, **kwargs)
+
 # --- Class Names ---
 sugarcane_class_names = sorted([
     "Banded Chlorosis", "Brown Spot", "BrownRust", "Dried Leaves", "Grassy shoot",
@@ -171,8 +178,11 @@ if page == L["home"]:
     @st.cache_resource
     def load_model(model_path):
         try:
-            # Fix for DepthwiseConv2D compatibility
-            return tf.keras.models.load_model(model_path, compile=False)
+            # Custom objects for compatibility
+            custom_objects = {
+                'DepthwiseConv2D': CompatibleDepthwiseConv2D
+            }
+            return tf.keras.models.load_model(model_path, custom_objects=custom_objects, compile=False)
         except Exception as e:
             st.error(f"❌ Error loading model: {e}")
             return None
