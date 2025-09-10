@@ -12,7 +12,7 @@ import datetime
 # --- Class Names ---
 sugarcane_class_names = sorted([
     "Banded Chlorosis", "Brown Spot", "BrownRust", "Dried Leaves", "Grassy shoot",
-    "Healthy Leaves", "Pokkah Boeng", "Sett Rot", "smut", "Viral Disease", "Yellow Leaf"
+    "Healthy Leaves", "Pokkah Boeng", "Sett Rot", "smut", "Viral Disease", "Yellow Leaf" , "Red Stripe(viral Disease)"
 ])
 
 other_class_names = sorted([
@@ -27,7 +27,7 @@ other_class_names = sorted([
 # --- Model and Info Paths ---
 models_config = {
     "Sugarcane": {
-        "model_path": "models/sugarcane_disease_model_best.h5",
+        "model_path": "models/sugarcane_phase2_best.h5",
         "info_path": "sugercane_info.json",
         "class_names": sugarcane_class_names
     },
