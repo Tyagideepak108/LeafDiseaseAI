@@ -7,14 +7,27 @@
       "पत्तियों का पीएच बदलने के लिए बेकिंग सोडा (1 चम्मच प्रति लीटर पानी) के घोल का छिड़काव करें।",
       "नीम के तेल का स्प्रे करें, जिसमें जीवाणुरोधी गुण होते हैं।"
     ],
+    "organic_treatment_en": [
+      "Spray baking soda solution (1 tsp per liter water) to change leaf pH.",
+      "Apply neem oil spray which has antibacterial properties."
+    ],
     "chemical_treatment": [
       "लक्षण दिखते ही कॉपर आधारित जीवाणुनाशकों का छिड़काव करें।",
       "कॉपर स्प्रे के साथ बारी-बारी से मैनकोज़ेब युक्त उत्पादों का उपयोग करें।"
+    ],
+    "chemical_treatment_en": [
+      "Spray copper-based bactericides as soon as symptoms appear.",
+      "Alternate copper spray with mancozeb-containing products."
     ],
     "preventive_measures": [
       "रोपण के लिए रोग-मुक्त, साफ बीजों का उपयोग करें।",
       "फसल चक्र का पालन करें और कम से कम एक वर्ष तक उसी स्थान पर रोपण से बचें।",
       "पत्तियों को सूखा रखने के लिए ऊपर से पानी देने से बचें।"
+    ],
+    "preventive_measures_en": [
+      "Use disease-free, clean seeds for planting.",
+      "Follow crop rotation and avoid planting in same location for at least one year.",
+      "Avoid overhead watering to keep leaves dry."
     ]
   },
   "Pepper__bell___healthy": {
@@ -25,32 +38,58 @@
       "संतुलित पोषण के लिए कम्पोस्ट या अच्छी तरह सड़ी हुई खाद प्रदान करें।",
       "मिट्टी की नमी बनाए रखने और खरपतवार को दबाने के लिए मल्च का उपयोग करें।"
     ],
+    "organic_treatment_en": [
+      "Provide compost or well-decomposed manure for balanced nutrition.",
+      "Use mulch to retain soil moisture and suppress weeds."
+    ],
     "chemical_treatment": [
       "स्वस्थ पौधों के लिए आम तौर पर आवश्यक नहीं है।",
       "यदि आवश्यक हो, तो मिट्टी परीक्षण की सिफारिशों के अनुसार संतुलित एनपीके उर्वरक डालें।"
+    ],
+    "chemical_treatment_en": [
+      "Generally not required for healthy plants.",
+      "If needed, apply balanced NPK fertilizer as per soil test recommendations."
     ],
     "preventive_measures": [
       "हवा के अच्छे संचार के लिए उचित दूरी सुनिश्चित करें।",
       "पौधे के आधार पर नियमित रूप से पानी दें।",
       "कीटों या बीमारियों के किसी भी शुरुआती लक्षण के लिए पौधों की नियमित रूप से निगरानी करें।"
+    ],
+    "preventive_measures_en": [
+      "Ensure proper spacing for good air circulation.",
+      "Water regularly at plant base.",
+      "Monitor plants regularly for early signs of pests or diseases."
     ]
   },
   "Potato___Early_blight": {
     "hindi_name": "आलू अगेती झुलसा",
     "cause": "Early blight in potatoes is caused by Alternaria solani fungus that creates dark brown spots with ring patterns on leaves.",
-    "cause_hindi": "यह Alternaria solani फफूंद के कारण होता है जो पत्तियों पर गहरे भूरे धब्बे और गोल छल्लों जैसा पैटर्न बनाता है।",
+    "cause_hindi": "यह Alternaria solani ففूंद के कारण होता है जो पत्तियों पर गहरे भूरे धब्बे और गोल छल्लों जैसा पैटर्न बनाता है।",
     "organic_treatment": [
       "कम्पोस्ट चाय के घोल का छिड़काव करें।",
       "कॉपर-आधारित या सल्फर-आधारित जैविक फफूंदनाशकों का प्रयोग करें।"
+    ],
+    "organic_treatment_en": [
+      "Spray compost tea solution.",
+      "Use copper-based or sulfur-based organic fungicides."
     ],
     "chemical_treatment": [
       "मैनकोज़ेब या क्लोरोथालोनिल युक्त फफूंदनाशकों का प्रयोग करें।",
       "नियमित अंतराल पर छिड़काव करें, खासकर नमी वाले मौसम में।"
     ],
+    "chemical_treatment_en": [
+      "Use fungicides containing mancozeb or chlorothalonil.",
+      "Spray at regular intervals, especially during humid weather."
+    ],
     "preventive_measures": [
       "खेत को खरपतवार और मलबे से साफ रखें।",
       "अगेती झुलसा के प्रतिरोधी आलू की किस्में उगाएं।",
       "गैर-मेजबान फसलों के साथ फसल चक्र का अभ्यास करें।"
+    ],
+    "preventive_measures_en": [
+      "Keep field clean from weeds and debris.",
+      "Grow early blight resistant potato varieties.",
+      "Practice crop rotation with non-host crops."
     ]
   },
   "Potato___Late_blight": {
@@ -61,14 +100,27 @@
       "रोग आने से पहले जैविक कॉपर आधारित फफूंदनाशकों का छिड़काव करें।",
       "पौधों के चारों ओर हवा का अच्छा संचार सुनिश्चित करें।"
     ],
+    "organic_treatment_en": [
+      "Spray organic copper-based fungicides before disease onset.",
+      "Ensure good air circulation around plants."
+    ],
     "chemical_treatment": [
       "मेटलैक्सिल जैसे प्रणालीगत फफूंदनाशकों को मैनकोज़ेब जैसे सुरक्षात्मक फफूंदनाशकों के साथ मिलाकर उपयोग करें।",
       "स्थानीय कृषि विशेषज्ञों द्वारा अनुशंसित एक सख्त स्प्रे शेड्यूल का पालन करें।"
+    ],
+    "chemical_treatment_en": [
+      "Use systemic fungicides like metalaxyl combined with protective fungicides like mancozeb.",
+      "Follow a strict spray schedule recommended by local agricultural experts."
     ],
     "preventive_measures": [
       "जलभराव से बचने के लिए मिट्टी की जल निकासी में सुधार करें।",
       "सुबह पानी देकर पत्तियों पर अत्यधिक नमी से बचें।",
       "प्रमाणित रोग मुक्त आलू कंद लगाएं।"
+    ],
+    "preventive_measures_en": [
+      "Improve soil drainage to avoid waterlogging.",
+      "Water in morning to avoid excessive moisture on leaves.",
+      "Plant certified disease-free potato tubers."
     ]
   },
   "Potato___healthy": {
@@ -79,14 +131,27 @@
       "मिट्टी को समृद्ध करने के लिए जैविक खाद डालें।",
       "कंद की सुरक्षा के लिए मिट्टी चढ़ाने का अभ्यास करें।"
     ],
+    "organic_treatment_en": [
+      "Add organic manure to enrich soil.",
+      "Practice earthing up for tuber protection."
+    ],
     "chemical_treatment": [
       "मिट्टी परीक्षण के आधार पर संतुलित एनपीके उर्वरक डालें।",
       "स्वस्थ पौधे के लिए किसी विशिष्ट रासायनिक उपचार की आवश्यकता नहीं है।"
+    ],
+    "chemical_treatment_en": [
+      "Apply balanced NPK fertilizer based on soil test.",
+      "No specific chemical treatment needed for healthy plants."
     ],
     "preventive_measures": [
       "नियमित पानी देने का शेड्यूल बनाए रखें।",
       "बढ़ते चक्र के दौरान उचित पोषण सुनिश्चित करें।",
       "नियमित रूप से कीटों और रोगों की निगरानी करें।"
+    ],
+    "preventive_measures_en": [
+      "Maintain regular watering schedule.",
+      "Ensure proper nutrition during growing cycle.",
+      "Monitor regularly for pests and diseases."
     ]
   },
   "Tomato___Bacterial_spot": {
@@ -97,14 +162,27 @@
       "कॉपर आधारित जैविक जीवाणुनाशकों का छिड़काव करें।",
       "फायदेमंद रोगाणुओं को बढ़ावा देने के लिए पतला कम्पोस्ट चाय स्प्रे लागू करें।"
     ],
+    "organic_treatment_en": [
+      "Spray copper-based organic bactericides.",
+      "Apply diluted compost tea spray to promote beneficial microorganisms."
+    ],
     "chemical_treatment": [
       "कॉपर और मैनकोज़ेब के मिश्रण वाले उत्पादों का छिड़काव करें।",
       "जीवाणु प्रतिरोध को रोकने के लिए रासायनिक स्प्रे को बारी-बारी से बदलें।"
+    ],
+    "chemical_treatment_en": [
+      "Spray products containing copper and mancozeb mixture.",
+      "Alternate chemical sprays to prevent bacterial resistance."
     ],
     "preventive_measures": [
       "रोपण से पहले बीजों को गर्म पानी (50°C पर 25 मिनट) से उपचारित करें।",
       "खेतों में स्वच्छता बनाए रखें और उपकरणों को साफ करें।",
       "जब पौधे गीले हों तो खेतों में काम करने से बचें।"
+    ],
+    "preventive_measures_en": [
+      "Treat seeds with hot water (50°C for 25 minutes) before planting.",
+      "Maintain field hygiene and clean equipment.",
+      "Avoid working in fields when plants are wet."
     ]
   },
   "Tomato___Early_blight": {
@@ -115,14 +193,27 @@
       "बैसिलस सबटिलिस युक्त जैव-फफूंदनाशक का प्रयोग करें।",
       "बेकिंग सोडा के घोल (1 चम्मच प्रति लीटर पानी) का छिड़काव करें।"
     ],
+    "organic_treatment_en": [
+      "Use bio-fungicides containing Bacillus subtilis.",
+      "Spray baking soda solution (1 tsp per liter water)."
+    ],
     "chemical_treatment": [
       "क्लोरोथालोनिल या एज़ोक्सिस्ट्रोबिन जैसे फफूंदनाशकों का प्रयोग करें।",
       "रोग स्थापित होने से पहले स्प्रे शुरू करें, खासकर जब मौसम इसके लिए अनुकूल हो।"
+    ],
+    "chemical_treatment_en": [
+      "Use fungicides like chlorothalonil or azoxystrobin.",
+      "Start spraying before disease establishment, especially when weather is favorable."
     ],
     "preventive_measures": [
       "फसल चक्र का अभ्यास करें और कम से कम 2 साल तक एक ही स्थान पर टमाटर न लगाएं।",
       "जैसे-जैसे पौधा बढ़ता है, सबसे निचली पत्तियों को हटाकर नष्ट कर दें।",
       "मिट्टी से पौधे की पत्तियों पर फफूंद के बीजाणुओं को sal उछलने से रोकने के लिए मल्च का उपयोग करें।"
+    ],
+    "preventive_measures_en": [
+      "Practice crop rotation and avoid planting tomatoes in same location for at least 2 years.",
+      "Remove and destroy lowest leaves as plant grows.",
+      "Use mulch to prevent fungal spores from splashing from soil to plant leaves."
     ]
   },
   "Tomato___Late_blight": {
@@ -133,14 +224,27 @@
       "पौधों को उचित दूरी पर लगाकर हवा का अच्छा संचार सुनिश्चित करें।",
       "एक निवारक उपाय के रूप में जैविक कॉपर आधारित फफूंदनाशकों का छिड़काव करें।"
     ],
+    "organic_treatment_en": [
+      "Plant at proper spacing to ensure good air circulation.",
+      "Spray organic copper-based fungicides as preventive measure."
+    ],
     "chemical_treatment": [
       "मेटलैक्सिल या साइमोक्सानिल + मैनकोज़ेब युक्त उत्पादों जैसे फफूंदनाशकों का प्रयोग करें।",
       "नमी की स्थिति में सक्रिय रूप से फॉस्फोनेट-आधारित स्प्रे लागू करें।"
+    ],
+    "chemical_treatment_en": [
+      "Use fungicides like metalaxyl or cymoxanil + mancozeb products.",
+      "Apply phosphonate-based sprays actively during humid conditions."
     ],
     "preventive_measures": [
       "यदि उपलब्ध हो तो प्रतिरोधी किस्में लगाएं।",
       "ऊपर से पानी देने से बचें; यदि संभव हो तो ड्रिप सिंचाई का उपयोग करें।",
       "झुलसा के लिए अनुकूल परिस्थितियों के लिए मौसम के पूर्वानुमान की निगरानी करें।"
+    ],
+    "preventive_measures_en": [
+      "Plant resistant varieties if available.",
+      "Avoid overhead watering; use drip irrigation if possible.",
+      "Monitor weather forecasts for blight-favorable conditions."
     ]
   },
   "Tomato___Leaf_Mold": {
@@ -151,14 +255,27 @@
       "सल्फर युक्त जैविक फफूंदनाशकों का छिड़काव करें।",
       "पतला दूध स्प्रे (1 भाग दूध, 9 भाग पानी) लागू करें जो फंगल के विकास को रोक सकता है।"
     ],
+    "organic_treatment_en": [
+      "Spray sulfur-containing organic fungicides.",
+      "Apply diluted milk spray (1 part milk, 9 parts water) which can inhibit fungal growth."
+    ],
     "chemical_treatment": [
       "मैनकोज़ेब या क्लोरोथालोनिल जैसे फफूंदनाशकों का प्रयोग करें।",
       "पत्तियों के नीचे की तरफ विशेष रूप से पूरी तरह से कवरेज सुनिश्चित करें।"
+    ],
+    "chemical_treatment_en": [
+      "Use fungicides like mancozeb or chlorothalonil.",
+      "Ensure complete coverage especially on underside of leaves."
     ],
     "preventive_measures": [
       "वेंटिलेशन में सुधार करें, खासकर ग्रीनहाउस में।",
       "आर्द्रता का स्तर कम रखें (85% से नीचे)।",
       "हवा का प्रवाह बढ़ाने के लिए निचली पत्तियों की छंटाई करें।"
+    ],
+    "preventive_measures_en": [
+      "Improve ventilation, especially in greenhouses.",
+      "Keep humidity levels low (below 85%).",
+      "Prune lower leaves to increase air flow."
     ]
   },
   "Tomato___Septoria_leaf_spot": {
@@ -169,14 +286,27 @@
       "कॉपर आधारित जैविक फफूंदनाशकों का छिड़काव करें।",
       "ट्राइकोडर्मा युक्त जैव-फफूंदनाशक लागू करें।"
     ],
+    "organic_treatment_en": [
+      "Spray copper-based organic fungicides.",
+      "Apply Trichoderma-containing bio-fungicides."
+    ],
     "chemical_treatment": [
       "क्लोरोथालोनिल या मैनकोज़ेब युक्त फफूंदनाशकों का प्रयोग करें।",
       "प्रतिरोध को रोकने के लिए फफूंदनाशकों को बारी-बारी से बदलें।"
+    ],
+    "chemical_treatment_en": [
+      "Use fungicides containing chlorothalonil or mancozeb.",
+      "Alternate fungicides to prevent resistance."
     ],
     "preventive_measures": [
       "संक्रमित पत्तियों को तुरंत हटाकर नष्ट कर दें।",
       "फसल चक्र का लगन से अभ्यास करें।",
       "फंगल बीजाणुओं को मिट्टी से पत्तियों पर उछलने से रोकने के लिए मल्च का उपयोग करें।"
+    ],
+    "preventive_measures_en": [
+      "Remove and destroy infected leaves immediately.",
+      "Practice crop rotation diligently.",
+      "Use mulch to prevent fungal spores from splashing from soil to leaves."
     ]
   },
   "Tomato___Spider_mites Two-spotted_spider_mite": {
@@ -187,14 +317,27 @@
       "नीम के तेल या कीटनाशक साबुन का छिड़काव करें, यह सुनिश्चित करते हुए कि पत्तियों के नीचे की तरफ कवर हो।",
       "लेडीबग या शिकारी माइट जैसे जैविक नियंत्रण छोड़ें।"
     ],
+    "organic_treatment_en": [
+      "Spray neem oil or insecticidal soap, ensuring coverage of leaf undersides.",
+      "Release biological controls like ladybugs or predatory mites."
+    ],
     "chemical_treatment": [
       "एबाamectin या स्पाइरोमेसिफेन जैसे विशिष्ट माइटिसाइड का उपयोग करें।",
       "व्यापक-स्पेक्ट्रम कीटनाशकों से बचें जो प्राकृतिक शिकारियों को मार सकते हैं।"
+    ],
+    "chemical_treatment_en": [
+      "Use specific miticides like abamectin or spiromesifen.",
+      "Avoid broad-spectrum insecticides that can kill natural predators."
     ],
     "preventive_measures": [
       "तनाव कम करने के लिए पौधों को अच्छी तरह से पानी दें।",
       "माइट्स के शुरुआती लक्षणों के लिए पत्तियों के नीचे की तरफ नियमित रूप से जांच करें।",
       "आर्द्रता बढ़ाएँ क्योंकि माइट्स शुष्क परिस्थितियों में पनपते हैं।"
+    ],
+    "preventive_measures_en": [
+      "Keep plants well-watered to reduce stress.",
+      "Regularly check undersides of leaves for early mite signs.",
+      "Increase humidity as mites thrive in dry conditions."
     ]
   },
   "Tomato___Target_Spot": {
@@ -205,14 +348,27 @@
       "कॉपर आधारित फफूंदनाशकों का छिड़काव करें।",
       "पौधे के स्वास्थ्य को बढ़ावा देने के लिए तरल समुद्री शैवाल का अर्क लागू करें।"
     ],
+    "organic_treatment_en": [
+      "Spray copper-based fungicides.",
+      "Apply liquid seaweed extract to promote plant health."
+    ],
     "chemical_treatment": [
       "डाइफेनोकोनाज़ोल या एज़ोक्सिस्ट्रोबिन जैसे फफूंदनाशकों का छिड़काव करें।",
       "पूरे पौधे का अच्छा कवरेज सुनिश्चित करें।"
+    ],
+    "chemical_treatment_en": [
+      "Spray fungicides like difenoconazole or azoxystrobin.",
+      "Ensure good coverage of entire plant."
     ],
     "preventive_measures": [
       "पौधों के चारों ओर हवा का संचार सुधारें।",
       "संक्रमित पौधे के मलबे को हटाकर नष्ट कर दें।",
       "फसल चक्र का अभ्यास करें।"
+    ],
+    "preventive_measures_en": [
+      "Improve air circulation around plants.",
+      "Remove and destroy infected plant debris.",
+      "Practice crop rotation."
     ]
   },
   "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
@@ -223,14 +379,27 @@
       "सफेद मक्खियों को नियंत्रित करने के लिए पीले चिपचिपे जाल स्थापित करें।",
       "नीम के तेल के घोल (5 मिली प्रति लीटर पानी) का हर 15 दिन में छिड़काव करें।"
     ],
+    "organic_treatment_en": [
+      "Install yellow sticky traps to control whiteflies.",
+      "Spray neem oil solution (5ml per liter water) every 15 days."
+    ],
     "chemical_treatment": [
       "इमिडाक्लोप्रिड 17.8% एसएल (0.5 मिली प्रति लीटर पानी) का छिड़काव करें।",
       "थियामेथोक्साम 25% डब्ल्यूजी (0.5 ग्राम प्रति लीटर पानी) के साथ बारी-बारी से बदलें।"
+    ],
+    "chemical_treatment_en": [
+      "Spray imidacloprid 17.8% SL (0.5ml per liter water).",
+      "Alternate with thiamethoxam 25% WG (0.5g per liter water)."
     ],
     "preventive_measures": [
       "वायरस-प्रतिरोधी किस्मों का प्रयोग करें।",
       "संक्रमित पौधों को तुरंत हटाकर नष्ट कर दें।",
       "खेतों को खरपतवार मुक्त रखें जो सफेद मक्खियों को शरण दे सकते हैं।"
+    ],
+    "preventive_measures_en": [
+      "Use virus-resistant varieties.",
+      "Remove and destroy infected plants immediately.",
+      "Keep fields weed-free that can harbor whiteflies."
     ]
   },
   "Tomato___Tomato_mosaic_virus": {
@@ -241,14 +410,27 @@
       "दूध का स्प्रे (1 भाग दूध से 9 भाग पानी) वायरस के संचरण को कम कर सकता है।",
       "पौधों के स्वास्थ्य को बढ़ावा देने के लिए कम्पोस्ट चाय का प्रयोग करें।"
     ],
+    "organic_treatment_en": [
+      "Milk spray (1 part milk to 9 parts water) may reduce virus transmission.",
+      "Use compost tea to promote plant health."
+    ],
     "chemical_treatment": [
       "इस वायरस के लिए कोई सीधा रासायनिक उपचार प्रभावी नहीं है।",
       "फोकस कीट वैक्टर (जैसे एफिड्स) को नियंत्रित करने पर होना चाहिए।"
+    ],
+    "chemical_treatment_en": [
+      "No direct chemical treatment is effective for this virus.",
+      "Focus should be on controlling insect vectors (like aphids)."
     ],
     "preventive_measures": [
       "संक्रमित पौधों को संभालते समय साफ-सुथरे उपकरणों का उपयोग करें।",
       "खेत से संक्रमित पौधों को तुरंत हटा दें।",
       "तंबाकू उत्पादों का उपयोग करने वाले श्रमिकों को पौधों को संभालने से पहले हाथ धोने के लिए कहें।"
+    ],
+    "preventive_measures_en": [
+      "Use clean tools when handling infected plants.",
+      "Remove infected plants from field immediately.",
+      "Ask workers using tobacco products to wash hands before handling plants."
     ]
   },
   "Tomato___healthy": {
@@ -259,14 +441,27 @@
       "संतुलित पोषण के लिए नियमित रूप से जैविक खाद या कम्पोस्ट डालें।",
       "पौधों को मजबूत बनाने के लिए तरल समुद्री शैवाल का अर्क डालें।"
     ],
+    "organic_treatment_en": [
+      "Apply organic manure or compost regularly for balanced nutrition.",
+      "Apply liquid seaweed extract to strengthen plants."
+    ],
     "chemical_treatment": [
       "स्वस्थ पौधों के लिए आवश्यक नहीं है।",
       "यदि आवश्यक हो तो मिट्टी परीक्षण के आधार पर संतुलित उर्वरक दें।"
+    ],
+    "chemical_treatment_en": [
+      "Not required for healthy plants.",
+      "If needed, apply balanced fertilizer based on soil test."
     ],
     "preventive_measures": [
       "नियमित देखभाल करें और उचित पानी दें।",
       "किसी भी समस्या का जल्द पता लगाने के लिए पौधों की नियमित निगरानी करें।",
       "फसल चक्र अपनाएँ।"
+    ],
+    "preventive_measures_en": [
+      "Provide regular care and proper watering.",
+      "Monitor plants regularly for early problem detection.",
+      "Practice crop rotation."
     ]
   }
 

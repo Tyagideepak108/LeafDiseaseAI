@@ -45,34 +45,17 @@ models_config = {
     }
 }
 
-# ====================================================
 # --- Page Config + CSS + Language Toggle + Labels ---
-# ====================================================
+
 st.set_page_config(page_title="🌱 Leaf Disease Detector", layout="wide", page_icon="🌿")
 
-def load_css():
-    st.markdown(
-        """
-        <style>
-        .main {background-color: #f8fff4;}
-        .stButton button {
-            border-radius: 12px;
-            background-color: #4CAF50;
-            color: white;
-            font-size: 16px;
-        }
-        .stButton button:hover {background-color: #45a049;}
-        .prediction-card {
-            padding: 15px;
-            border-radius: 12px;
-            box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
-            margin-bottom: 12px;
-        }
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
-load_css()
+# function css 
+def load_css(file_name):
+    with open(file_name) as f:
+        st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
+
+# Aur fir function ko call karo
+load_css("style.css")
 
 # --- Language & Navigation ---
 if "lang" not in st.session_state:
@@ -111,14 +94,15 @@ labels = {
         "top_predictions": "Top Predicted Diseases",
         "no_feedback": "No feedback available yet.",
         "analyzing": "🔍 Analyzing...",
-        "not_confident": "⚠️ Model not fully confident, showing top 3 possible predictions:",
+        "not_confident": "⚠️ Model is not confident with this image. Please take a clearer image of the leaf for better results.",
         "select_details": "👉 Select one to view details:",
         "no_details": "ℹ️ No details available for this disease.",
         "play_audio": "🔊 Play Audio",
         "home": "Home",
         "dashboard": "Dashboard",
         "crop_select": "🌾 Select Crop Type",
-        "feedback_title": "📝 Feedback"
+        "feedback_title": "📝 Feedback",
+        "made_by": "Developed with ❤️ by Deepak Tyagi" # ADDED FOR FOOTER
     },
     "hi": {
         "title": "🌿 पत्तों की बीमारी का पता लगाने वाला ऐप",
@@ -144,14 +128,15 @@ labels = {
         "top_predictions": "शीर्ष अनुमानित बीमारियाँ",
         "no_feedback": "अभी कोई प्रतिक्रिया उपलब्ध नहीं है।",
         "analyzing": "🔍 विश्लेषण कर रहा है...",
-        "not_confident": "⚠️ मॉडल पूरी तरह से आश्वस्त नहीं है, शीर्ष 3 संभावित पूर्वानुमान दिखा रहा है:",
+        "not_confident": "⚠️ मॉडल इस तस्वीर से आश्वस्त नहीं है। बेहतर परिणाम के लिए कृपया पत्ते की स्पष्ट तस्वीर लें।",
         "select_details": "👉 विवरण देखने के लिए एक चुनें:",
         "no_details": "ℹ️ इस बीमारी के लिए कोई विवरण उपलब्ध नहीं है।",
         "play_audio": "🔊 ऑडियो चलाएं",
         "home": "होम",
         "dashboard": "डैशबोर्ड",
         "crop_select": "🌾 फसल का प्रकार चुनें",
-        "feedback_title": "📝 प्रतिक्रिया"
+        "feedback_title": "📝 प्रतिक्रिया",
+        "made_by": "दीपक त्यागी द्वारा विकसित ❤️ के साथ " # ADDED FOR FOOTER
     }
 }
 L = labels[st.session_state.lang]
@@ -171,12 +156,14 @@ def text_to_speech(text, lang):
         st.error(f"❌ Error generating audio: {e}")
         return None
 
+
+
 # --- HOME PAGE ---
 if page == L["home"]:
     st.title(L["title"])
 
     @st.cache_resource
-    def load_model(model_path):
+    def load_model(model_path, crop_name):
         try:
             # Custom objects for compatibility
             custom_objects = {
@@ -190,8 +177,16 @@ if page == L["home"]:
     # Sidebar crop selection
     st.sidebar.header(L["crop_select"])
     selected_crop = st.sidebar.selectbox(L["crop_select"], list(models_config.keys()))
+    
+    # Clear cache if crop changed
+    if "current_crop" not in st.session_state:
+        st.session_state.current_crop = selected_crop
+    elif st.session_state.current_crop != selected_crop:
+        st.cache_resource.clear()
+        st.session_state.current_crop = selected_crop
+    
     config = models_config[selected_crop]
-    model = load_model(config["model_path"])
+    model = load_model(config["model_path"], selected_crop)  # Pass crop name for unique caching
     class_names = config["class_names"]
 
     # Load disease info JSON
@@ -202,20 +197,33 @@ if page == L["home"]:
         st.error(f"❌ Error loading disease info: {e}")
         st.stop()
 
-    # Image Input
+    # Image Input - Preserve image on language change
+    if "uploaded_image" not in st.session_state:
+        st.session_state.uploaded_image = None
+    if "webcam_image" not in st.session_state:
+        st.session_state.webcam_image = None
+        
     st.header(L["upload_header"])
     upload_method = st.radio(L["input_method"], [L["upload_button"], L["webcam_button"]])
     image_input = None
+    
     if upload_method == L["upload_button"]:
         uploaded = st.file_uploader(L["upload_button"], type=["jpg", "jpeg", "png"])
         if uploaded:
-            image_input = Image.open(uploaded)
-            st.image(image_input, caption=L["upload_button"], use_column_width=True)
+            st.session_state.uploaded_image = Image.open(uploaded)
+            st.session_state.webcam_image = None
+        if st.session_state.uploaded_image:
+            image_input = st.session_state.uploaded_image
+            st.image(image_input, caption=L["upload_button"], use_container_width=True)
+            
     elif upload_method == L["webcam_button"]:
         cam_image = st.camera_input(L["webcam_button"])
         if cam_image:
-            image_input = Image.open(cam_image)
-            st.image(image_input, caption=L["webcam_button"], use_column_width=True)
+            st.session_state.webcam_image = Image.open(cam_image)
+            st.session_state.uploaded_image = None
+        if st.session_state.webcam_image:
+            image_input = st.session_state.webcam_image
+            st.image(image_input, caption=L["webcam_button"], use_container_width=True)
 
     # ---- Prediction Logic ----
     final_pred = None
@@ -223,64 +231,102 @@ if page == L["home"]:
 
     if image_input and model:
         with st.spinner(L["analyzing"]):
+            # Debug info
+            st.write(f"🔍 Using model for: {selected_crop}")
+            # st.write(f"📊 Model expects {len(class_names)} classes")
+            # st.write(f"📋 Model path: {config['model_path']}")
+            
+            # Verify model output matches class names
+            if model is not None:
+                try:
+                    # Test prediction shape
+                    test_shape = model.output_shape
+                    expected_classes = test_shape[-1] if test_shape else "Unknown"
+                    # st.write(f"🤖 Model output classes: {expected_classes}")
+                    
+                    if expected_classes != len(class_names):
+                        st.error(f"⚠️ Model mismatch! Model has {expected_classes} outputs but {len(class_names)} class names provided.")
+                        st.stop()
+                except:
+                    pass
+            
             predicted_class, confidence, is_confident = predict_disease(image_input, model, class_names)
 
-        if not is_confident:  # Show top-3 choices
+        if not is_confident:  # Show message to take better image
             st.warning(L["not_confident"])
-            processed_img = preprocess_image(image_input, model)
-            predictions = model.predict(processed_img)[0]
-            top_indices = predictions.argsort()[-3:][::-1]
-            top_preds = [(class_names[i], predictions[i]) for i in top_indices]
-
-            selected_disease = st.radio(
-                L["select_details"],
-                [f"{name} ({conf*100:.2f}%)" for name, conf in top_preds],
-                key="top3_radio"
-            )
-            final_pred = selected_disease.split(" (")[0]
-            final_conf = dict(top_preds)[final_pred] * 100
+            st.info("💡 Tips for better image: \n- Use good lighting \n- Focus on the leaf clearly \n- Avoid blurry images \n- Capture the diseased area properly")
+            st.stop()  # Stop processing and don't show predictions
         else:
             final_pred, final_conf = predicted_class, confidence
 
         # --- Show Disease Info ---
         if final_pred:
             st.subheader(L["prediction_result"])
+            
+            # Display disease name based on language
+            display_name = final_pred
+            if st.session_state.lang == "hi":
+                matched_info_temp = disease_info.get(final_pred)
+                if matched_info_temp and matched_info_temp.get('hindi_name'):
+                    display_name = matched_info_temp.get('hindi_name')
+            
+            confidence_text = "Confidence" if st.session_state.lang == "en" else "विश्वसनीयता"
+            
             st.markdown(
                 f"<div style='border-radius:12px;padding:12px;margin-top:10px;"
                 f"background-color:#1e1e2f;box-shadow:2px 2px 10px rgba(0,0,0,0.5);'>"
-                f"<h4 style='color:#4CAF50;'>{final_pred}</h4>"
-                f"<p style='color:#ccc;'>Confidence: {final_conf:.2f}%</p>"
+                f"<h4 style='color:#4CAF50;'>{display_name}</h4>"
+                f"<p style='color:#ccc;'>{confidence_text}: {final_conf:.2f}%</p>"
                 "</div>", unsafe_allow_html=True
             )
 
             matched_info = disease_info.get(final_pred)
             if matched_info:
                 st.subheader(L["disease_info"])
-                st.markdown(f"**Hindi Name:** {matched_info.get('hindi_name','N/A')}")
-
-                eng_cause = matched_info.get("cause", "N/A")
-                st.markdown(f"**Cause (English):** {eng_cause}")
-                if st.button("🔊 Play Cause (English)", key="eng_audio"):
-                    audio_io = text_to_speech(eng_cause, 'en')
-                    if audio_io: st.audio(audio_io.getvalue(), format='audio/mp3')
-
-                hin_cause = matched_info.get("cause_hindi", "N/A")
-                st.markdown(f"**Cause (Hindi):** {hin_cause}")
-                if st.button("🔊 Play Cause (Hindi)", key="hin_audio"):
-                    audio_io = text_to_speech(hin_cause, 'hi')
-                    if audio_io: st.audio(audio_io.getvalue(), format='audio/mp3')
+                
+                # Language-specific display
+                if st.session_state.lang == "hi":
+                    # Hindi mode - show only Hindi
+                    hindi_name = matched_info.get('hindi_name', final_pred)
+                    st.markdown(f"**रोग का नाम:** {hindi_name}")
+                    
+                    hin_cause = matched_info.get("cause_hindi", "N/A")
+                    st.markdown(f"**कारण:** {hin_cause}")
+                    if st.button("🔊 ऑडियो सुनें", key="hin_audio"):
+                        audio_io = text_to_speech(hin_cause, 'hi')
+                        if audio_io: st.audio(audio_io.getvalue(), format='audio/mp3')
+                else:
+                    # English mode - show only English
+                    st.markdown(f"**Disease Name:** {final_pred}")
+                    
+                    eng_cause = matched_info.get("cause", "N/A")
+                    st.markdown(f"**Cause:** {eng_cause}")
+                    if st.button("🔊 Play Audio", key="eng_audio"):
+                        audio_io = text_to_speech(eng_cause, 'en')
+                        if audio_io: st.audio(audio_io.getvalue(), format='audio/mp3')
 
                 st.divider()
                 st.subheader(L["treatment_preventive"])
                 tab1, tab2, tab3 = st.tabs([f"🌿 {L['organic']}", f"🧪 {L['chemical']}", f"🛡️ {L['preventive']}"])
+                
+                # Get language-specific treatment data
+                if st.session_state.lang == "hi":
+                    organic_treatments = matched_info.get("organic_treatment", [])
+                    chemical_treatments = matched_info.get("chemical_treatment", [])
+                    preventive_measures = matched_info.get("preventive_measures", [])
+                else:
+                    organic_treatments = matched_info.get("organic_treatment_en", [])
+                    chemical_treatments = matched_info.get("chemical_treatment_en", [])
+                    preventive_measures = matched_info.get("preventive_measures_en", [])
+                
                 with tab1:
-                    for step in matched_info.get("organic_treatment", []):
+                    for step in organic_treatments:
                         st.markdown(f"- {step}")
                 with tab2:
-                    for step in matched_info.get("chemical_treatment", []):
+                    for step in chemical_treatments:
                         st.markdown(f"- {step}")
                 with tab3:
-                    for step in matched_info.get("preventive_measures", []):
+                    for step in preventive_measures:
                         st.markdown(f"- {step}")
             else:
                 st.warning(L["no_details"])
@@ -354,3 +400,13 @@ elif page == L["dashboard"]:
 
         st.write(f"✅ Correct: {len(df[df['is_correct']=='Yes'])}")
         st.write(f"❌ Incorrect: {len(df[df['is_correct']=='No'])}")
+
+# --- FOOTER ---
+# ==================================
+footer_html = f"""
+<div class="footer">
+    <p>{L['made_by']} | <a href="https://github.com/Tyagideepak108" target="_blank">GitHub</a> | <a href="https://www.linkedin.com/in/tyagi-deepak/" target="_blank">LinkedIn</a></p>
+</div>
+"""
+st.markdown(footer_html, unsafe_allow_html=True)
+

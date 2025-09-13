@@ -7,14 +7,27 @@
       "मिट्टी में अच्छी तरह सड़ी हुई गोबर की खाद डालें।",
       "पत्तियों पर केलेटेड आयरन या जिंक का जैविक घोल स्प्रे करें।"
     ],
+    "organic_treatment_en": [
+      "Apply well-decomposed cow dung manure to the soil.",
+      "Spray organic solution of chelated iron or zinc on leaves."
+    ],
     "chemical_treatment": [
       "मिट्टी में फेरस सल्फेट (आयरन के लिए) या जिंक सल्फेट का प्रयोग करें।",
       "पत्तियों पर सूक्ष्म पोषक तत्वों के मिश्रण का छिड़काव करें।"
+    ],
+    "chemical_treatment_en": [
+      "Use ferrous sulfate (for iron) or zinc sulfate in soil.",
+      "Spray micronutrient mixture on leaves."
     ],
     "preventive_measures": [
       "रोपण से पहले मिट्टी का परीक्षण कराएं।",
       "मिट्टी का पीएच स्तर सही बनाए रखें (6.0 से 7.0)।",
       "संतुलित उर्वरक का प्रयोग सुनिश्चित करें।"
+    ],
+    "preventive_measures_en": [
+      "Test soil before planting.",
+      "Maintain proper soil pH level (6.0 to 7.0).",
+      "Ensure use of balanced fertilizers."
     ]
   },
   "Brown Spot": {
@@ -25,14 +38,27 @@
       "नीम के तेल का घोल बनाकर छिड़काव करें।",
       "संक्रमित पत्तियों को हटाकर नष्ट कर दें।"
     ],
+    "organic_treatment_en": [
+      "Spray neem oil solution.",
+      "Remove and destroy infected leaves."
+    ],
     "chemical_treatment": [
-      "प्रोपिकोनाज़ोल या मैनकोज़ेब युक्त फफूंदनाशक का प्रयोग करें।",
+      "प्रोपिकोनाज़ोल या मैनकोज़ेब युक्त ففूंदनाशक का प्रयोग करें।",
       "मौसम की स्थिति के आधार पर नियमित अंतराल पर छिड़काव करें।"
+    ],
+    "chemical_treatment_en": [
+      "Use fungicides containing propiconazole or mancozeb.",
+      "Spray at regular intervals based on weather conditions."
     ],
     "preventive_measures": [
       "खेत में हवा का संचार सुधारने के लिए गन्ने की उचित दूरी बनाए रखें।",
       "जलभराव से बचें और उचित जल निकासी सुनिश्चित करें।",
       "रोग प्रतिरोधी किस्मों का चयन करें।"
+    ],
+    "preventive_measures_en": [
+      "Maintain proper spacing to improve air circulation.",
+      "Avoid waterlogging and ensure proper drainage.",
+      "Select disease-resistant varieties."
     ]
   },
   "BrownRust": {
@@ -43,14 +69,27 @@
       "जैविक सल्फर आधारित फफूंदनाशक का छिड़काव करें।",
       "संक्रमित पत्तियों को इकट्ठा करके जला दें।"
     ],
+    "organic_treatment_en": [
+      "Spray organic sulfur-based fungicides.",
+      "Collect and burn infected leaves."
+    ],
     "chemical_treatment": [
       "प्रोपिकोनाज़ोल या ट्रायज़ोल समूह के फफूंदनाशक का छिड़काव करें।",
       "रोग के पहले लक्षण दिखते ही छिड़काव शुरू करें।"
+    ],
+    "chemical_treatment_en": [
+      "Spray fungicides from propiconazole or triazole group.",
+      "Start spraying as soon as first symptoms appear."
     ],
     "preventive_measures": [
       "रस्ट रोग के प्रति प्रतिरोधी किस्मों का प्रयोग करें।",
       "अत्यधिक नाइट्रोजन उर्वरक के प्रयोग से बचें।",
       "खेत की सफाई रखें।"
+    ],
+    "preventive_measures_en": [
+      "Use rust disease resistant varieties.",
+      "Avoid excessive nitrogen fertilizer use.",
+      "Keep field clean."
     ]
   },
   "Dried Leaves": {
@@ -61,14 +100,27 @@
       "सिंचाई की आवृत्ति और मात्रा बढ़ाएं।",
       "मिट्टी में नमी बनाए रखने के लिए जैविक मल्च का प्रयोग करें।"
     ],
+    "organic_treatment_en": [
+      "Increase frequency and amount of irrigation.",
+      "Use organic mulch to retain soil moisture."
+    ],
     "chemical_treatment": [
       "यदि किसी पोषक तत्व की कमी है, तो उसका उर्वरक डालें।",
       "सीधा कोई रासायनिक उपचार नहीं है, मूल कारण का पता लगाना होगा।"
+    ],
+    "chemical_treatment_en": [
+      "If nutrient deficiency, apply appropriate fertilizer.",
+      "No direct chemical treatment, need to identify root cause."
     ],
     "preventive_measures": [
       "सिंचाई और पोषण आपूर्ति को बेहतर करें।",
       "नियमित रूप से मिट्टी की नमी की जाँच करें।",
       "पौधों को किसी भी तनाव से बचाने के लिए समय पर देखभाल करें।"
+    ],
+    "preventive_measures_en": [
+      "Improve irrigation and nutrition supply.",
+      "Regularly check soil moisture.",
+      "Provide timely care to prevent plant stress."
     ]
   },
   "Grassy shoot": {
@@ -79,14 +131,27 @@
       "इस रोग का कोई जैविक उपचार नहीं है।",
       "फोकस केवल रोकथाम पर होना चाहिए।"
     ],
+    "organic_treatment_en": [
+      "No organic treatment available for this disease.",
+      "Focus should be only on prevention."
+    ],
     "chemical_treatment": [
       "इस रोग का कोई रासायनिक उपचार नहीं है।",
       "रोग फैलाने वाले कीड़ों को नियंत्रित करने के लिए कीटनाशकों का प्रयोग करें।"
+    ],
+    "chemical_treatment_en": [
+      "No chemical treatment available for this disease.",
+      "Use insecticides to control disease-spreading insects."
     ],
     "preventive_measures": [
       "रोपण से पहले बीज सेट्स पर गर्म पानी (50°C पर 2 घंटे) से उपचार करें।",
       "केवल रोग मुक्त, स्वस्थ बीज सेट्स का उपयोग करें।",
       "संक्रमित पौधों को खेत से उखाड़कर तुरंत नष्ट कर दें।"
+    ],
+    "preventive_measures_en": [
+      "Treat seed sets with hot water (50°C for 2 hours) before planting.",
+      "Use only disease-free, healthy seed sets.",
+      "Remove and destroy infected plants from field immediately."
     ]
   },
   "Healthy Leaves": {
@@ -97,14 +162,27 @@
       "जैविक खाद का प्रयोग करके मिट्टी की उर्वरता बनाए रखें।",
       "समय-समय पर नीम के तेल का हल्का स्प्रे कीटों को दूर रखता है।"
     ],
+    "organic_treatment_en": [
+      "Maintain soil fertility using organic manure.",
+      "Light neem oil spray keeps pests away."
+    ],
     "chemical_treatment": [
       "कोई उपचार आवश्यक नहीं है।",
       "आवश्यकतानुसार संतुलित उर्वरक का प्रयोग करें।"
+    ],
+    "chemical_treatment_en": [
+      "No treatment required.",
+      "Use balanced fertilizers as needed."
     ],
     "preventive_measures": [
       "नियमित सिंचाई और उचित पोषण दें।",
       "खेत को खरपतवार से मुक्त रखें।",
       "समय पर कटाई करें।"
+    ],
+    "preventive_measures_en": [
+      "Provide regular irrigation and proper nutrition.",
+      "Keep field free from weeds.",
+      "Harvest on time."
     ]
   },
   "Pokkah Boeng": {
@@ -115,14 +193,27 @@
       "संक्रमित ऊपरी हिस्से को काटकर हटा दें।",
       "ट्राइकोडर्मा युक्त जैविक फफूंदनाशक का प्रयोग करें।"
     ],
+    "organic_treatment_en": [
+      "Cut and remove infected upper parts.",
+      "Use Trichoderma-containing organic fungicides."
+    ],
     "chemical_treatment": [
       "कॉपर ऑक्सीक्लोराइड या मैनकोज़ेब का छिड़काव करें।",
       "रोग के शुरुआती चरण में ही छिड़काव करना प्रभावी होता है।"
+    ],
+    "chemical_treatment_en": [
+      "Spray copper oxychloride or mancozeb.",
+      "Spraying in early stages of disease is effective."
     ],
     "preventive_measures": [
       "रोग के प्रति प्रतिरोधी किस्मों का चयन करें।",
       "खेत में उचित जल निकासी सुनिश्चित करें।",
       "संतुलित मात्रा में उर्वरकों का प्रयोग करें।"
+    ],
+    "preventive_measures_en": [
+      "Select disease-resistant varieties.",
+      "Ensure proper drainage in field.",
+      "Use balanced fertilizers."
     ]
   },
   "Sett Rot": {
@@ -133,14 +224,27 @@
       "रोपण से पहले बीज सेट्स को ट्राइकोडर्मा के घोल में डुबोएं।",
       "अच्छी तरह सड़ी हुई गोबर की खाद का प्रयोग करें।"
     ],
+    "organic_treatment_en": [
+      "Dip seed sets in Trichoderma solution before planting.",
+      "Use well-decomposed cow dung manure."
+    ],
     "chemical_treatment": [
       "रोपण से पहले बीज सेट्स को कार्बेन्डाजिम या किसी अन्य फफूंदनाशक के घोल से उपचारित करें।",
       "खेत में फफूंदनाशक का छिड़काव करें।"
+    ],
+    "chemical_treatment_en": [
+      "Treat seed sets with carbendazim or other fungicide solution before planting.",
+      "Spray fungicides in field."
     ],
     "preventive_measures": [
       "हमेशा स्वस्थ और रोग मुक्त बीज सेट्स का प्रयोग करें।",
       "कटाई के बाद खेत की गहरी जुताई करें।",
       "जलभराव वाली भूमि में गन्ने की खेती से बचें।"
+    ],
+    "preventive_measures_en": [
+      "Always use healthy and disease-free seed sets.",
+      "Deep plowing after harvest.",
+      "Avoid sugarcane cultivation in waterlogged areas."
     ]
   },
   "smut": {
@@ -151,14 +255,27 @@
       "इस रोग का कोई प्रभावी जैविक नियंत्रण नहीं है।",
       "रोकथाम ही मुख्य उपाय है।"
     ],
+    "organic_treatment_en": [
+      "No effective organic control for this disease.",
+      "Prevention is the main approach."
+    ],
     "chemical_treatment": [
       "रोपण से पहले बीज सेट्स को फफूंदनाशक से उपचारित करें।",
       "संक्रमित पौधों को हटाने के बाद आसपास फफूंदनाशक का छिड़काव करें।"
+    ],
+    "chemical_treatment_en": [
+      "Treat seed sets with fungicides before planting.",
+      "Spray fungicides around area after removing infected plants."
     ],
     "preventive_measures": [
       "बीज सेट्स का गर्म पानी (52°C पर 30 मिनट) से उपचार करें।",
       "स्मट रोग के प्रति प्रतिरोधी किस्मों का प्रयोग करें।",
       "संक्रमित पौधों को बहुत सावधानी से, प्लास्टिक की थैली में बंद करके खेत से हटाएं और जला दें।"
+    ],
+    "preventive_measures_en": [
+      "Treat seed sets with hot water (52°C for 30 minutes).",
+      "Use smut disease resistant varieties.",
+      "Remove infected plants carefully in plastic bags and burn them."
     ]
   },
   "Viral Disease": {
@@ -169,14 +286,27 @@
       "वायरस का कोई सीधा जैविक उपचार नहीं है।",
       "वायरस फैलाने वाले कीड़ों को नियंत्रित करने के लिए नीम के तेल का छिड़काव करें।"
     ],
+    "organic_treatment_en": [
+      "No direct organic treatment for virus.",
+      "Spray neem oil to control virus-spreading insects."
+    ],
     "chemical_treatment": [
       "वायरस का कोई सीधा रासायनिक उपचार नहीं है।",
       "वायरस फैलाने वाले कीड़ों (जैसे एफिड्स) को नियंत्रित करने के लिए प्रणालीगत कीटनाशकों का उपयोग करें।"
+    ],
+    "chemical_treatment_en": [
+      "No direct chemical treatment for virus.",
+      "Use systemic insecticides to control virus-spreading insects (like aphids)."
     ],
     "preventive_measures": [
       "संक्रमित पौधों को तुरंत खेत से हटाकर नष्ट कर दें।",
       "हमेशा वायरस-मुक्त प्रमाणित बीज सेट्स का उपयोग करें।",
       "खेत में काम आने वाले उपकरणों को साफ रखें।"
+    ],
+    "preventive_measures_en": [
+      "Remove and destroy infected plants immediately.",
+      "Always use virus-free certified seed sets.",
+      "Keep farm equipment clean."
     ]
   },
   "Yellow Leaf": {
@@ -187,14 +317,27 @@
       "यदि कमी के कारण है, तो जैविक खाद और कम्पोस्ट डालें।",
       "यदि वायरस के कारण है, तो कीड़ों को नियंत्रित करने के लिए नीम तेल स्प्रे करें।"
     ],
+    "organic_treatment_en": [
+      "If due to deficiency, apply organic manure and compost.",
+      "If due to virus, spray neem oil to control insects."
+    ],
     "chemical_treatment": [
       "यदि कमी के कारण है, तो मैग्नीशियम, सल्फर और आयरन युक्त उर्वरक डालें।",
       "यदि वायरस के कारण है, तो कीड़ों को नियंत्रित करने के लिए कीटनाशक का प्रयोग करें।"
+    ],
+    "chemical_treatment_en": [
+      "If due to deficiency, apply fertilizers containing magnesium, sulfur and iron.",
+      "If due to virus, use insecticides to control insects."
     ],
     "preventive_measures": [
       "संतुलित उर्वरक का प्रयोग सुनिश्चित करें।",
       "रोग फैलाने वाले कीड़ों पर नियंत्रण रखें।",
       "अच्छी जल निकासी वाली मिट्टी में रोपण करें।"
+    ],
+    "preventive_measures_en": [
+      "Ensure use of balanced fertilizers.",
+      "Control disease-spreading insects.",
+      "Plant in well-drained soil."
     ]
   },
   "Red Stripe(viral Disease)": {
@@ -205,15 +348,29 @@
         "इस रोग का कोई निश्चित जैविक उपचार नहीं है।",
         "रोग फैलाने वाले कीड़ों (जैसे एफिड्स) को नियंत्रित करने के लिए जैविक कीटनाशक (नीम तेल, नीम आधारित स्प्रे) का प्रयोग करें।"
     ],
+    "organic_treatment_en": [
+        "No definite organic treatment available for this disease.",
+        "Use organic insecticides (neem oil, neem-based sprays) to control disease-spreading insects (like aphids)."
+    ],
     "chemical_treatment": [
         "इस रोग का कोई सीधा रासायनिक उपचार उपलब्ध नहीं है।",
         "कीटनाशकों का प्रयोग करके रोग फैलाने वाले कीड़ों को नियंत्रित करें।"
+    ],
+    "chemical_treatment_en": [
+        "No direct chemical treatment available for this disease.",
+        "Use insecticides to control disease-spreading insects."
     ],
     "preventive_measures": [
         "केवल रोगमुक्त और प्रमाणित बीज सेट्स का उपयोग करें।",
         "संक्रमित पौधों को खेत से उखाड़कर तुरंत नष्ट कर दें।",
         "कीट वाहकों (एफिड्स) की निगरानी और नियंत्रण करें।",
         "फसल में संतुलित उर्वरक का प्रयोग करें ताकि पौधों की रोग प्रतिरोधक क्षमता बनी रहे।"
+    ],
+    "preventive_measures_en": [
+        "Use only disease-free and certified seed sets.",
+        "Remove and destroy infected plants from field immediately.",
+        "Monitor and control insect vectors (aphids).",
+        "Use balanced fertilizers in crop to maintain plant disease resistance."
     ]
 }
 

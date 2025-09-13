@@ -1,0 +1,53 @@
+/* General Body and Main Area */
+.main {
+    background-color: #f8fff4;
+}
+
+/* Buttons */
+.stButton button {
+    border-radius: 12px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.stButton button:hover {
+    background-color: #45a049;
+}
+
+/* Prediction Card Styling */
+.prediction-card {
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+    margin-bottom: 12px;
+}
+
+/* Footer Styling */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #262730; /* Dark background */
+    color: #FAFAFA; /* Light text */
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    z-index: 1000;
+}
+
+.footer p {
+    margin: 0;
+    padding: 0;
+}
+
+.footer a {
+    color: #4CAF50; /* Green link color */
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
