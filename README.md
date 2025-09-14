@@ -50,7 +50,7 @@
 
 ## 🛠️ Technology Stack
 
-- **Frontend**: Streamlit
+- **Frontend**: Streamlit,CSS
 - **AI/ML**: TensorFlow 2.20.0, MobileNetV2
 - **Image Processing**: PIL, OpenCV
 - **Audio**: Google Text-to-Speech (gTTS)
