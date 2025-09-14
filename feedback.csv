@@ -1,0 +1,2 @@
+timestamp,prediction,confidence,is_correct,comment,image_path
+2025-09-14 21:50:26,Red Stripe(viral Disease),94.81%,Yes,N/A,feedback_images/Red Stripe(viral Disease)_20250914_215026.png
