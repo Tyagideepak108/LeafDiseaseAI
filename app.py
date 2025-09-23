@@ -8,8 +8,12 @@ import io
 import os
 import pandas as pd
 import datetime
-import plotly.express as px
-import plotly.graph_objects as go
+try:
+    import plotly.express as px
+    import plotly.graph_objects as go
+    PLOTLY_AVAILABLE = True
+except ImportError:
+    PLOTLY_AVAILABLE = False
 
 # Custom DepthwiseConv2D to handle compatibility
 class CompatibleDepthwiseConv2D(tf.keras.layers.DepthwiseConv2D):
