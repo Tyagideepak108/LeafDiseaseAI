@@ -62,7 +62,11 @@
 
 ## 🛠️ Technology Stack
 
+<<<<<<< HEAD
 - **Frontend**: Streamlit with custom CSS styling
+=======
+- **Frontend**: Streamlit,CSS
+>>>>>>> e2ea4046ab56d5aa40fb57c44c6f5e95fbc66d1b
 - **AI/ML**: TensorFlow 2.20.0, MobileNetV2
 - **Image Processing**: PIL, OpenCV
 - **Audio**: Google Text-to-Speech (gTTS)
